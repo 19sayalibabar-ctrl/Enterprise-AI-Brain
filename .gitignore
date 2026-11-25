@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.pyc
+backend/venv/
+backend/.venv/
+*.egg-info/
+.pytest_cache/
+
+# --- Environment ---
+.env
+
+# --- Database ---
+*.db
+*.sqlite3
+
+# --- Generated data (rebuilt from source documents) ---
+backend/vectorstore/*.faiss
+backend/uploads/*
+!backend/uploads/README.md
+
+# --- Node / frontend ---
+frontend/node_modules/
+frontend/dist/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
